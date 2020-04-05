@@ -1,0 +1,15 @@
+https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started
+
+https://shell.azure.com/
+
+#az iot hub device-identity create --hub-name YourIoTHubName --device-id MyNodeDevice
+az extension add --name azure-iot
+az iot hub device-identity create --hub-name blfuentestestiot --device-id MyNodeDevice
+
+#az iot hub device-identity show-connection-string --hub-name YourIoTHubName --device-id MyNodeDevice --output table
+az iot hub device-identity show-connection-string --hub-name blfuentestestiot --device-id MyNodeDevice --output table
+>HostName=blfuentestestiot.azure-devices.net;DeviceId=MyNodeDevice;SharedAccessKey=OKUUkZP+RetYIi3oKhApF2H0QvGmA8/QHdgoL53rhsY=
+
+#az iot hub monitor-events --hub-name YourIoTHubName --output table
+az iot hub monitor-events --hub-name blfuentestestiot --output table
+

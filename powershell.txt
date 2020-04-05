@@ -1,0 +1,4 @@
+https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-3.6.1
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest
+Connect-AzAccount
+az login

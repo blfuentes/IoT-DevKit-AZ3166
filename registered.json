@@ -1,0 +1,27 @@
+{
+  "authentication": {
+    "symmetricKey": {
+      "primaryKey": "OKUUkZP+RetYIi3oKhApF2H0QvGmA8/QHdgoL53rhsY=",
+      "secondaryKey": "7wGs8ZG/deyIXPlVpRUCltXdvMQBD3pki42IK9+ds4k="
+    },
+    "type": "sas",
+    "x509Thumbprint": {
+      "primaryThumbprint": null,
+      "secondaryThumbprint": null
+    }
+  },
+  "capabilities": {
+    "iotEdge": false
+  },
+  "cloudToDeviceMessageCount": 0,
+  "connectionState": "Disconnected",
+  "connectionStateUpdatedTime": "0001-01-01T00:00:00",
+  "deviceId": "MyNodeDevice",
+  "deviceScope": null,
+  "etag": "MTY2MzQyNTM0",
+  "generationId": "637194579732749186",
+  "lastActivityTime": "0001-01-01T00:00:00",
+  "status": "enabled",
+  "statusReason": null,
+  "statusUpdatedTime": "0001-01-01T00:00:00"
+}
